@@ -38,9 +38,9 @@
 
         funcs {
             bindings = <
-            &out OUT_USB      &out OUT_BLE      &bt BT_NXT       &trans           &trans              &trans             &trans            &trans              &trans            &trans            &trans           &trans
             &trans            &kp F1            &kp F2           &kp F3           &kp F4              &kp F5             &kp F6            &kp F7              &kp F8            &kp F9            &kp F10          &trans
-            &trans            &trans            &trans           &trans           &trans              &trans             &kp LEFT          &kp DOWN            &kp UP            &kp RIGHT         &trans           &trans
+            &out OUT_USB      &out OUT_BLE      &bt BT_NXT       &trans           &trans              &trans             &kp LEFT          &kp DOWN            &kp UP            &kp RIGHT         &trans           &trans
+            &trans            &trans            &trans           &trans           &trans              &trans             &trans            &trans              &trans            &trans            &trans           &trans
             &trans            &trans            &trans           &trans           &trans              &kp BSPC           &kp BSPC          &trans              &trans            &trans            &trans           &trans
             >;
         };
