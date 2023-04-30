@@ -15,6 +15,18 @@
 #define SYMB     3
 
 / {
+    combos {
+
+        combo_jk {
+            timeout-ms = <50>;
+            key-positions = <20 21>;
+            bindings = <&kp LC(A)>;
+        };
+
+    };
+};
+
+/ {
     keymap {
         compatible = "zmk,keymap";
 
@@ -46,7 +58,7 @@
         };
         symb {
             bindings = <
-            &trans            &kp EXCL          &kp HASH         &kp DLLR         &kp PRCNT           &kp AMPS           &kp TILDE2        &kp SLASH           &kp BSLH          &kp LBRC          &kp RBRC         &trans
+            &trans            &kp EXCL          &kp HASH         &kp DLLR         &kp PRCNT           &kp AMPS           &kp TILDE2        &kp SLASH           &kp BSLH          &kp LBRC          &kp RBRC         &kp N0
             &trans            &kp LT            &kp GT           &kp LBRC         &kp RBRC            &kp CARET          &kp GRAVE         &kp LBKT            &kp RBKT          &kp LPAR          &kp RPAR         &trans
             &trans            &kp COLON         &kp UNDER        &kp EXCL         &kp AT              &kp STAR           &kp KP_MINUS      &kp KP_PLUS         &kp KP_EQUAL      &kp PIPE2         &trans           &trans
             &trans            &trans            &trans           &trans           &trans              &kp BSPC           &kp BSPC          &trans              &trans            &trans            &trans           &trans
