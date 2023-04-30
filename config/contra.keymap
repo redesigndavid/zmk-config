@@ -39,16 +39,16 @@
             bindings = <
             &trans            &trans            &trans           &trans           &trans              &trans             &trans            &trans              &trans            &trans            &trans           &trans
             &trans            &kp F1            &kp F2           &kp F3           &kp F4              &kp F5             &kp F6            &kp F7              &kp F8            &kp F9            &kp F10          &trans
-            &trans            &trans            &trans           &trans           &trans              &trans             &trans            &trans              &trans            &trans            &trans           &trans
-            &trans            &trans            &trans           &trans           &trans              &trans             &trans            &trans              &trans            &trans            &trans           &trans
+            &trans            &trans            &trans           &trans           &trans              &trans             &kp LEFT          &kp DOWN            &kp UP            &kp RIGHT         &trans           &trans
+            &trans            &trans            &trans           &trans           &trans              &kp BSPC           &kp BSPC          &trans              &trans            &trans            &trans           &trans
             >;
         };
         symb {
             bindings = <
-            &trans            &kp EXCL          &kp HASH         &kp PRCT         &kp AMPS            &trans             &trans           &trans               &trans            &trans            &trans           &trans
-            &trans            &kp LABT          &kp RABT         &kp LBRC         &kp RBRC            &trans             &trans           &trans               &trans            &trans            &trans           &trans
-            &trans            &kp COLN          &kp EXCL         &kp AT           &kp STAR            &trans             &trans           &trans               &trans            &trans            &trans           &trans
-            &trans            &trans            &trans           &trans           &trans              &trans             &trans           &trans               &trans            &trans            &trans           &trans
+            &trans            &kp EXCL          &kp HASH         &kp DLLR         &kp PRCT            &kp AMPS           &kp TILDE2        &kp SLASH           &kp BSLH          &kp LBRC          &kp RBRC         &trans
+            &trans            &kp LABT          &kp RABT         &kp LBRC         &kp RBRC            &kp CARET          &kp GRAVE         &kp LBKT            &kp RBKT          &kp LPAR          &kp RPAR         &trans
+            &trans            &kp COLN          &kp UNDER        &kp EXCL         &kp AT              &kp STAR           &KC KP_MINUS      &kp KP_PLUS         &kp KP_EQUAL      &kp PIPE2         &trans           &trans
+            &trans            &trans            &trans           &trans           &trans              &trans             &trans            &trans              &trans            &trans            &trans           &trans
             >;
         };
     };
