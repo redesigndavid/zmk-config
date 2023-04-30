@@ -43,5 +43,13 @@
             &trans            &trans            &trans           &trans           &trans              &trans             &trans            &trans              &trans            &trans            &trans           &trans
             >;
         };
+        symb {
+            bindings = <
+            &trans            &kp EXCL          &kp HASH         &kp PRCT         &kp AMPS            &trans             &trans           &trans               &trans            &trans            &trans           &trans
+            &trans            &kp LABT          &kp RABT         &kp LBRC         &kp RBRC            &trans             &trans           &trans               &trans            &trans            &trans           &trans
+            &trans            &kp COLN          &kp EXCL         &kp AT           &kp STAR            &trans             &trans           &trans               &trans            &trans            &trans           &trans
+            &trans            &trans            &trans           &trans           &trans              &trans             &trans           &trans               &trans            &trans            &trans           &trans
+            >;
+        };
     };
 };
