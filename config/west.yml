@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: nickconway
-      url-base: httpS://github.com/nickconway
+      url-base: https://github.com/nickconway
   projects:
     - name: zmk
       remote: nickconway
