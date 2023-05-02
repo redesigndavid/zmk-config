@@ -104,7 +104,7 @@ combo_##name {                        \
             bindings = <
             &trans            &kp EXCL          &kp HASH         &kp DLLR         &kp PRCNT           &kp AMPS           &kp TILDE2        &kp SLASH           &kp BSLH          &kp LBRC          &kp RBRC         &kp N0
             &trans            &kp LT            &kp GT           &kp LBRC         &kp RBRC            &kp CARET          &kp GRAVE         &kp LBKT            &kp RBKT          &kp LPAR          &kp RPAR         &trans
-            &trans            &kp COLON         &kp UNDER        &kp EXCL         &kp AT              &kp STAR           &kp KP_MINUS      &kp KP_PLUS         &kp KP_EQUAL      &kp PIPE          &trans           &trans
+            &trans            &kp COLON         &kp UNDER        &kp EXCL         &kp AT              &kp STAR           &kp KP_MINUS      &kp KP_PLUS         &kp EQUAL      &kp PIPE          &trans           &trans
             &trans            &trans            &trans           &trans           &trans              &kp BSPC           &kp BSPC          &trans              &trans            &trans            &trans           &trans
             >;
         };
