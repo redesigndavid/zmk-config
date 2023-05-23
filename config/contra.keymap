@@ -117,7 +117,7 @@ combo_##name {                        \
             &trans            &trans            &trans           &trans           &trans              &trans             &trans            &trans              &trans            &trans            &trans           &trans
             >;
         };
-        dmacs {
+        blue {
             bindings = <
             &out OUT_USB      &out OUT_BLE      &trans           &trans           &trans              &trans             &trans            &trans              &trans            &trans            &trans           &trans
             &out OUT_TOG      &bt BT_NXT        &bt BT_CLR       &trans           &trans              &trans             &trans            &trans              &trans            &trans            &trans           &trans
